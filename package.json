@@ -1,0 +1,14 @@
+﻿{
+  "name": "clearnet-open-source",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @clearnet/agents dev",
+    "lint": "eslint . --ext .ts,.tsx"
+  }
+}

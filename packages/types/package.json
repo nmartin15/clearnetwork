@@ -1,0 +1,15 @@
+﻿{
+  "name": "@clearnet/types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types for ClearNet",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0"
+  }
+}
